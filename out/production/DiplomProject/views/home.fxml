@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<FlowPane prefHeight="598.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeController">
+    <children>
+      <Pane prefHeight="597.0" prefWidth="600.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#showReference" text="Справка" />
+            <GridPane fx:id="alternativesGridPane" layoutX="50.0" layoutY="120.0" />
+            <GridPane fx:id="criteriaGridPane" layoutX="450.0" layoutY="120.0">
+      </GridPane>
+            <Label layoutX="50.0" layoutY="50.0" text="Альтернативы">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="450.0" layoutY="50.0" text="Критерии">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Label>
+            <Button layoutX="50.0" layoutY="67.0" mnemonicParsing="false" onAction="#addAlternative" text="Добавить Альтернативу" />
+            <Button layoutX="50.0" layoutY="92.0" mnemonicParsing="false" onAction="#removeAlternative" prefHeight="25.0" prefWidth="147.0" text="Удалить Альтернативу" />
+            <Button layoutX="450.0" layoutY="67.0" mnemonicParsing="false" onAction="#addCriterion" text="Добавить Критерий" />
+            <Button layoutX="450.0" layoutY="92.0" mnemonicParsing="false" onAction="#removeCriterion" prefHeight="25.0" prefWidth="125.0" text="Удалить Критерий" />
+            <Button layoutX="338.0" layoutY="559.0" mnemonicParsing="false" onAction="#next" prefHeight="25.0" prefWidth="125.0" text="Далее" />
+         </children>
+      </Pane>
+    </children>
+</FlowPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<FlowPane prefHeight="613.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.CriteriaController">
+   <children>
+      <Pane prefHeight="613.0" prefWidth="600.0">
+         <children>
+            <GridPane fx:id="gridPane" layoutX="100.0" layoutY="136.0">
+            </GridPane>
+            <Button layoutY="2.0" mnemonicParsing="false" onAction="#showReference" text="Справка" />
+            <Label fx:id="title" layoutX="100.0" layoutY="109.0" text="Заполните матрицу сравнения Критериев отностиельно цели">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></Label>
+            <Button layoutX="274.0" layoutY="575.0" mnemonicParsing="false" onAction="#next" text="Далее" />
+         </children></Pane>
+      
+   </children>
+</FlowPane>
